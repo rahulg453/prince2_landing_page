@@ -1,3 +1,4 @@
+import SpecialOfferBanner from "./components/layout/SpecialOfferBanner";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Prince2Hero from "./components/sections/Prince2Hero";
@@ -17,6 +18,7 @@ import WhyTrainingWithUs from "./components/sections/WhyTrainingWithUs";
 export default function Home() {
   return (
     <>
+      <SpecialOfferBanner />
       <Navbar />
       <main className="overflow-hidden">
         <Prince2Hero />

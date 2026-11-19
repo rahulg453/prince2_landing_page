@@ -203,7 +203,7 @@ export default function Prince2Hero() {
           </div>
 
           {/* HERO CONTENT CONTAINER (EXACT ORIGINAL DESIGN) */}
-          <div className="relative max-w-7xl mx-auto pt-28 pb-20 w-full ">
+          <div className="relative max-w-7xl mx-auto pt-36 pb-20 w-full ">
             <div className="max-w-4xl">
               {/* Top Label */}
               <motion.div

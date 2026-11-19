@@ -492,6 +492,20 @@ input::-webkit-inner-spin-button {
   animation: marquee 25s linear infinite;
 }
 
+@keyframes marquee-special {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-special {
+  animation: marquee-special 40s linear infinite;
+  will-change: transform;
+}
+
 /* ================= 3D Perspective & Motion Utilities ================= */
 
 .perspective-800 {
