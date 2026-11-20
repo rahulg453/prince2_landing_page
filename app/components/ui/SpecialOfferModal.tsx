@@ -936,13 +936,13 @@ export default function SpecialOfferModal({
             </div>
 
             {/* MOBILE IMAGE */}
-            <div className="relative h-[190px] overflow-hidden bg-[#071B3C] md:hidden">
+            {/* <div className="relative h-[190px] overflow-hidden bg-[#071B3C] sm:hidden">
               <img
                 src="/black%20friday.png"
                 alt="Black Friday Sale - Up to 60% OFF"
                 className="h-full w-full object-cover object-center"
               />
-            </div>
+            </div> */}
 
             {/* RIGHT FORM SECTION */}
             <div className="flex min-w-0 flex-col justify-center px-6 py-7">
